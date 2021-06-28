@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -69,7 +69,7 @@ class Homepage extends React.Component {
                             <h3>Magna feugiat lorem</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.more.com" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -77,7 +77,7 @@ class Homepage extends React.Component {
                             <h3>Magna feugiat lorem</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.more.com" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -85,7 +85,7 @@ class Homepage extends React.Component {
                             <h3>Magna feugiat lorem</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.more.com" className="button">More</a></li>
                             </ul>
                         </div>
 
@@ -99,8 +99,8 @@ class Homepage extends React.Component {
                         </header>
                         <p>Sed lacus nascetur ac ante amet sapien.</p>
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="/signup" className="button special">Sign Up</a></li>
+                            <li><a href="/learn-more" className="button">Learn More</a></li>
                         </ul>
                     </div>
                 </section>
