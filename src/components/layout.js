@@ -4,13 +4,10 @@ import "../assets/scss/main.scss";
 import Header from "./Header";
 import Footer from "./Footer";
 
-class Template extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        loading: 'is-loading'
-      }
-    }
+export default class Layout extends React.Component {
+    state = {
+      loading: 'is-loading'
+    }  
 
     componentDidMount () {
       this.timeoutId = setTimeout(() => {
@@ -25,16 +22,12 @@ class Template extends React.Component {
     }
 
     render() {
-        const { children } = this.props;
-
         return (
             <div className={`body ${this.state.loading}`}>
                 <Header />
-                {children}
+                {this.props.children}
                 <Footer />
             </div>
         );
     }
 }
-
-export default Template;
